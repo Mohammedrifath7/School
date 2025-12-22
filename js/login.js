@@ -11,7 +11,7 @@ submit.addEventListener('click',(event)=>{
     // console.log(name);
 
     if (name === userName && pass === password) {
-        window.location.href = "../pages/dashboard.html";
+        window.location.href = "./dashboard.html";
     } else {
         alert("Invalid credentials");
     }
