@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    border:0;
+    font-family: "BBH Bartle", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bg{
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+}
+
+.left-section{
+    background-color: rgb(3, 0, 86);
+    height: 100vh;
+    width:250px;
+}
+
+.right-section{
+    background-color: rgb(240, 237, 237);
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+}
+
+.nav{
+    width:100%;
+    background-color: white;
+    height:68px;
+}
+
+
+.content{
+    margin-top:10px;
+    display: flex;
+    flex:1;
+    width:950px;
+    flex-direction: column;
+    
+}
+
+
+.greeting{
+    background-color:rgb(3, 3, 197);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    margin:1px;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 13px;
+}
+
+.options{
+    margin:1px;
+    margin-top:5px;
+    border-radius: 13px;
+    background-color: white;
+    height: 250px;
+}
