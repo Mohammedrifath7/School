@@ -30,8 +30,49 @@ body{
     width:100%;
     background-color: white;
     height:68px;
+    display: flex;
     box-shadow: 0px 1px 2px rgba( 0 , 0 , 0 , 0.25 );
-    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.announcement-left, .admission-left, .students-left, .teachers-left{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+.announcement-right, .admission-right, .students-right, .teachers-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.admission-count, .teachers-count, .announcement-count, .students-count{
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.admission-img,.announcement-img, .teachers-img, .students-img{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.nav-userImg{
+    height:100%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 17px;
+    margin-left: 10px;
 }
 
 
@@ -81,10 +122,7 @@ body{
     border: 0;
 }
 
-/* .admission div, .students div, .teachers div, .announcement div{
-    margin: 10px;
-    padding:5px;
-} */
+
 
 .admission img, .students img,.teachers img, .announcement img{
     margin:0;
